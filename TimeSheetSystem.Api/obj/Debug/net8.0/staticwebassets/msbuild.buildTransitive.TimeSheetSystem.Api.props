@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/TimeSheetSystem.Api.props" />
+</Project>

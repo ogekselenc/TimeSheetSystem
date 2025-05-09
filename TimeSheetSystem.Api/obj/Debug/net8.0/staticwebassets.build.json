@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OavBWZHz3S3tOIEW2HtexNwZbQAEHfgaYSz+M5YbLRM=",
+  "Source": "TimeSheetSystem.Api",
+  "BasePath": "_content/TimeSheetSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

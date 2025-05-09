@@ -1,0 +1,11 @@
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/bin/Debug/net8.0/TimeSheetSystem.Domain.deps.json
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/bin/Debug/net8.0/TimeSheetSystem.Domain.dll
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/bin/Debug/net8.0/TimeSheetSystem.Domain.pdb
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/TimeSheetSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/TimeSheetSystem.Domain.AssemblyInfoInputs.cache
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/TimeSheetSystem.Domain.AssemblyInfo.cs
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/TimeSheetSystem.Domain.csproj.CoreCompileInputs.cache
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/TimeSheetSystem.Domain.dll
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/refint/TimeSheetSystem.Domain.dll
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/TimeSheetSystem.Domain.pdb
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/ref/TimeSheetSystem.Domain.dll
