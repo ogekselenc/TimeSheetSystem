@@ -9,3 +9,4 @@
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/refint/TimeSheetSystem.Domain.dll
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/TimeSheetSystem.Domain.pdb
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/ref/TimeSheetSystem.Domain.dll
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/Debug/net8.0/TimeSheetSystem.Domain.sourcelink.json

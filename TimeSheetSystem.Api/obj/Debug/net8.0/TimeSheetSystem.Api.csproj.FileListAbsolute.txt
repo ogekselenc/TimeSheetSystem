@@ -76,3 +76,4 @@
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.pdb
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.genruntimeconfig.cache
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/ref/TimeSheetSystem.Api.dll
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.sourcelink.json

@@ -3,17 +3,23 @@ using System.Collections.Generic;
 
 namespace TimeSheetSystem.Data.Models;
 
-public partial class Project
+public partial class EmployeeProject
 {
     public Guid Id { get; set; }
 
-    public string Name { get; set; } = null!;
+    public Guid EmployeeId { get; set; }
 
-    public string? Description { get; set; }
+    public Guid ProjectId { get; set; }
 
-    public Guid Manager { get; set; }
+    public string Role { get; set; } = null!;
 
-    public int MaxEmployees { get; set; }
+    public Guid AssignedBy { get; set; }
+
+    public DateOnly JoinedDate { get; set; }
+
+    public bool? IsActive { get; set; }
+
+    public DateOnly? EndDate { get; set; }
 
     public bool? IsDeleted { get; set; }
 
@@ -29,15 +35,15 @@ public partial class Project
 
     public Guid? DeletedBy { get; set; }
 
+    public virtual Employee AssignedByNavigation { get; set; } = null!;
+
     public virtual Employee? CreatedByNavigation { get; set; }
 
     public virtual Employee? DeletedByNavigation { get; set; }
 
-    public virtual ICollection<EmployeeProject> EmployeeProjects { get; set; } = new List<EmployeeProject>();
+    public virtual Employee Employee { get; set; } = null!;
 
-    public virtual Employee ManagerNavigation { get; set; } = null!;
-
-    public virtual ICollection<TimeLog> TimeLogs { get; set; } = new List<TimeLog>();
+    public virtual Project Project { get; set; } = null!;
 
     public virtual Employee? UpdatedByNavigation { get; set; }
 }
