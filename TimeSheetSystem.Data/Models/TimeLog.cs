@@ -19,9 +19,9 @@ public partial class TimeLog
 
     public string? Note { get; set; }
 
-    public bool? IsApproved { get; set; }
+    public bool IsApproved { get; set; }
 
-    public bool? IsDeleted { get; set; }
+    public bool IsDeleted { get; set; }
 
     public DateTime? CreatedAt { get; set; }
 

@@ -13,9 +13,9 @@ public partial class Employee
 
     public string Email { get; set; } = null!;
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
 
-    public bool? IsDeleted { get; set; }
+    public bool IsDeleted { get; set; }
 
     public DateTime? CreatedAt { get; set; }
 

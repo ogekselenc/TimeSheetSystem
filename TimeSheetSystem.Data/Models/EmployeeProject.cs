@@ -17,11 +17,11 @@ public partial class EmployeeProject
 
     public DateOnly JoinedDate { get; set; }
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
 
     public DateOnly? EndDate { get; set; }
 
-    public bool? IsDeleted { get; set; }
+    public bool IsDeleted { get; set; }
 
     public DateTime? CreatedAt { get; set; }
 

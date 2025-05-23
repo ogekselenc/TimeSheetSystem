@@ -15,7 +15,7 @@ public partial class Project
 
     public int MaxEmployees { get; set; }
 
-    public bool? IsDeleted { get; set; }
+    public bool IsDeleted { get; set; }
 
     public DateTime? CreatedAt { get; set; }
 
