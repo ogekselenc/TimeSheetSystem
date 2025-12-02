@@ -4,14 +4,14 @@
     "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/TimeSheetSystem.Domain.csproj": {}
   },
   "projects": {
-    "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/TimeSheetSystem.Domain.csproj": {
+    "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Data/TimeSheetSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/TimeSheetSystem.Domain.csproj",
-        "projectName": "TimeSheetSystem.Domain",
-        "projectPath": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/TimeSheetSystem.Domain.csproj",
+        "projectUniqueName": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Data/TimeSheetSystem.Data.csproj",
+        "projectName": "TimeSheetSystem.Data",
+        "projectPath": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Data/TimeSheetSystem.Data.csproj",
         "packagesPath": "/home/ognjen/.nuget/packages/",
-        "outputPath": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/",
+        "outputPath": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ognjen/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,106 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/TimeSheetSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/TimeSheetSystem.Domain.csproj",
+        "projectName": "TimeSheetSystem.Domain",
+        "projectPath": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/TimeSheetSystem.Domain.csproj",
+        "packagesPath": "/home/ognjen/.nuget/packages/",
+        "outputPath": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ognjen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Data/TimeSheetSystem.Data.csproj": {
+                "projectPath": "/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Data/TimeSheetSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
             "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -64,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1149,11 +1149,11 @@
       "System.Threading.Tasks.Extensions/4.6.0": {},
       "TimeSheetSystem.Data/1.0.0": {
         "dependencies": {
+          "MediatR": "12.5.0",
           "Microsoft.EntityFrameworkCore": "9.0.4",
           "Microsoft.Extensions.Configuration": "9.0.5",
           "Microsoft.Extensions.Configuration.Json": "9.0.5",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
-          "TimeSheetSystem.Domain": "1.0.0"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
         },
         "runtime": {
           "TimeSheetSystem.Data.dll": {
@@ -1164,7 +1164,9 @@
       },
       "TimeSheetSystem.Domain/1.0.0": {
         "dependencies": {
-          "System.ComponentModel.Annotations": "5.0.0"
+          "MediatR": "12.5.0",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "TimeSheetSystem.Data": "1.0.0"
         },
         "runtime": {
           "TimeSheetSystem.Domain.dll": {

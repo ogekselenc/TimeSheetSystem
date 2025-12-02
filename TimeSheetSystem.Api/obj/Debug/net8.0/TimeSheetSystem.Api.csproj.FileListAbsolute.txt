@@ -1,3 +1,11 @@
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.csproj.AssemblyReference.cache
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.GeneratedMSBuildEditorConfig.editorconfig
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.AssemblyInfoInputs.cache
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.AssemblyInfo.cs
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.csproj.CoreCompileInputs.cache
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.MvcApplicationPartsAssemblyInfo.cs
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.MvcApplicationPartsAssemblyInfo.cache
+/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.sourcelink.json
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/bin/Debug/net8.0/appsettings.Development.json
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/bin/Debug/net8.0/appsettings.json
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/bin/Debug/net8.0/TimeSheetSystem.Api
@@ -142,14 +150,6 @@
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/bin/Debug/net8.0/TimeSheetSystem.Domain.dll
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/bin/Debug/net8.0/TimeSheetSystem.Data.pdb
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/bin/Debug/net8.0/TimeSheetSystem.Domain.pdb
-/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.csproj.AssemblyReference.cache
-/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.GeneratedMSBuildEditorConfig.editorconfig
-/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.AssemblyInfoInputs.cache
-/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.AssemblyInfo.cs
-/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.csproj.CoreCompileInputs.cache
-/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.MvcApplicationPartsAssemblyInfo.cs
-/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.MvcApplicationPartsAssemblyInfo.cache
-/home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/TimeSheetSystem.Api.sourcelink.json
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/staticwebassets.build.json
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/staticwebassets.development.json
 /home/ognjen/Documents/C#/TimeSheetSystem/TimeSheetSystem.Api/obj/Debug/net8.0/staticwebassets/msbuild.TimeSheetSystem.Api.Microsoft.AspNetCore.StaticWebAssets.props
