@@ -34,7 +34,7 @@ namespace TimeSheetSystem.Domain.Employees.CreateEmployee
                 Email = request.Email,
                 IsActive = true,
                 IsDeleted = false,
-                CreatedAt = DateTime.UtcNow
+                CreatedAt = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Unspecified)
             };
 
             await _uow.Employees.AddAsync(employee, cancellationToken);
