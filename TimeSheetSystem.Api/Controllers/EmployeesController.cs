@@ -2,6 +2,9 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using TimeSheetSystem.Api.Requests.Employees;
 using TimeSheetSystem.Domain.Employees.CreateEmployee;
+using TimeSheetSystem.Domain.Employees.GetEmployeeById;
+using TimeSheetSystem.Domain.Employees.GetEmployees;
+using TimeSheetSystem.Domain.Common.Exceptions;
 
 namespace TimeSheetSystem.Api.Controllers;
 
@@ -22,12 +25,29 @@ public class EmployeesController : ControllerBase
         var result = await _mediator.Send(new CreateEmployeeCommand(
             request.FirstName, request.LastName, request.Email));
 
-        return CreatedAtAction(nameof(Get), new { id = result.Id }, result);
+        
+        return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
+        //return CreatedAtAction(nameof(Get), new { id = result.Id }, result);
     }
 
     [HttpGet("{id}")]
-    public IActionResult Get(Guid id)
+    public async Task<IActionResult> GetById(Guid id)
     {
-        return Ok(); // TODO: implement later
+        try
+        {
+            var employee = await _mediator.Send(new GetEmployeeByIdQuery(id));
+            return Ok(employee);
+        }
+        catch (NotFoundException ex)
+        {
+            return NotFound(new { error = ex.Message });
+        }
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var employees = await _mediator.Send(new GetEmployeesQuery());
+        return Ok(employees);
     }
 }
