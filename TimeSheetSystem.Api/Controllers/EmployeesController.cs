@@ -4,6 +4,7 @@ using TimeSheetSystem.Api.Requests.Employees;
 using TimeSheetSystem.Domain.Employees.CreateEmployee;
 using TimeSheetSystem.Domain.Employees.GetEmployeeById;
 using TimeSheetSystem.Domain.Employees.GetEmployees;
+using TimeSheetSystem.Domain.Employees.EditEmployee;
 using TimeSheetSystem.Domain.Common.Exceptions;
 
 namespace TimeSheetSystem.Api.Controllers;
@@ -50,4 +51,34 @@ public class EmployeesController : ControllerBase
         var employees = await _mediator.Send(new GetEmployeesQuery());
         return Ok(employees);
     }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Edit(Guid id, [FromBody] EmployeeEditRequest request)
+    {
+        try
+        {
+            var command = new EmployeeEditCommand(
+                id,
+                request.FirstName,
+                request.LastName,
+                request.Email,
+                request.IsActive);
+
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+        catch (NotFoundException ex)
+        {
+            return NotFound(new { error = ex.Message });
+        }
+        catch (InvalidOperationException ex) when (ex.Message.Contains("already taken"))
+        {
+            return Conflict(new { error = ex.Message });
+        }
+        catch (InvalidOperationException ex) when (ex.Message.Contains("Cannot edit a deleted employee"))
+        {
+            return BadRequest(new { error = ex.Message });
+        }
+    }
 }
+

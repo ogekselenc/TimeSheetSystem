@@ -15,6 +15,7 @@ builder.Services.AddMediatR(cfg =>
 
 builder.Services.AddScoped<ICreateEmployeeRepository, CreateEmployeeRepository>();
 builder.Services.AddScoped<IEmployeeReadRepository, EmployeeReadRepository>();
+builder.Services.AddScoped<IEmployeeEditRepository, EmployeeEditRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddControllers();
